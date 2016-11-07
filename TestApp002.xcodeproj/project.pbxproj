@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE18BC821DCFE8FA00E4CD43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE18BC801DCFE8FA00E4CD43 /* Main.storyboard */; };
+		CE18BC831DD0376200E4CD43 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8882601DCEE4AD003995B9 /* Alamofire.framework */; };
+		CE18BC841DD0376200E4CD43 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8882611DCEE4AD003995B9 /* SwiftyJSON.framework */; };
 		CE82A5B11DCEC326001A708E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82A5B01DCEC326001A708E /* AppDelegate.swift */; };
-		CE82A5B31DCEC326001A708E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82A5B21DCEC326001A708E /* ViewController.swift */; };
-		CE82A5B61DCEC326001A708E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82A5B41DCEC326001A708E /* Main.storyboard */; };
 		CE82A5B81DCEC326001A708E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE82A5B71DCEC326001A708E /* Assets.xcassets */; };
 		CE82A5BB1DCEC326001A708E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82A5B91DCEC326001A708E /* LaunchScreen.storyboard */; };
 		CE82A5C61DCEC326001A708E /* TestApp002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82A5C51DCEC326001A708E /* TestApp002Tests.swift */; };
 		CE82A5D11DCEC326001A708E /* TestApp002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82A5D01DCEC326001A708E /* TestApp002UITests.swift */; };
+		CE8882661DCEE6CF003995B9 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8882651DCEE6CF003995B9 /* ArticleListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE18BC811DCFE8FA00E4CD43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE82A5AD1DCEC326001A708E /* TestApp002.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp002.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE82A5B01DCEC326001A708E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE82A5B21DCEC326001A708E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE82A5B51DCEC326001A708E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE82A5B71DCEC326001A708E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE82A5BA1DCEC326001A708E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE82A5BC1DCEC326001A708E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		CE82A5CC1DCEC326001A708E /* TestApp002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApp002UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE82A5D01DCEC326001A708E /* TestApp002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp002UITests.swift; sourceTree = "<group>"; };
 		CE82A5D21DCEC326001A708E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8882601DCEE4AD003995B9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		CE8882611DCEE4AD003995B9 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		CE8882651DCEE6CF003995B9 /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE18BC831DD0376200E4CD43 /* Alamofire.framework in Frameworks */,
+				CE18BC841DD0376200E4CD43 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				CE82A5C41DCEC326001A708E /* TestApp002Tests */,
 				CE82A5CF1DCEC326001A708E /* TestApp002UITests */,
 				CE82A5AE1DCEC326001A708E /* Products */,
+				CE88825F1DCEE4AC003995B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +104,12 @@
 		CE82A5AF1DCEC326001A708E /* TestApp002 */ = {
 			isa = PBXGroup;
 			children = (
+				CE18BC801DCFE8FA00E4CD43 /* Main.storyboard */,
 				CE82A5B01DCEC326001A708E /* AppDelegate.swift */,
-				CE82A5B21DCEC326001A708E /* ViewController.swift */,
-				CE82A5B41DCEC326001A708E /* Main.storyboard */,
 				CE82A5B71DCEC326001A708E /* Assets.xcassets */,
 				CE82A5B91DCEC326001A708E /* LaunchScreen.storyboard */,
 				CE82A5BC1DCEC326001A708E /* Info.plist */,
+				CE8882651DCEE6CF003995B9 /* ArticleListViewController.swift */,
 			);
 			path = TestApp002;
 			sourceTree = "<group>";
@@ -125,6 +132,15 @@
 			path = TestApp002UITests;
 			sourceTree = "<group>";
 		};
+		CE88825F1DCEE4AC003995B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8882601DCEE4AD003995B9 /* Alamofire.framework */,
+				CE8882611DCEE4AD003995B9 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +151,7 @@
 				CE82A5A91DCEC326001A708E /* Sources */,
 				CE82A5AA1DCEC326001A708E /* Frameworks */,
 				CE82A5AB1DCEC326001A708E /* Resources */,
+				CE8882641DCEE4BE003995B9 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -193,6 +210,7 @@
 				TargetAttributes = {
 					CE82A5AC1DCEC326001A708E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3U92R9364N;
 						ProvisioningStyle = Automatic;
 					};
 					CE82A5C01DCEC326001A708E = {
@@ -234,7 +252,7 @@
 			files = (
 				CE82A5BB1DCEC326001A708E /* LaunchScreen.storyboard in Resources */,
 				CE82A5B81DCEC326001A708E /* Assets.xcassets in Resources */,
-				CE82A5B61DCEC326001A708E /* Main.storyboard in Resources */,
+				CE18BC821DCFE8FA00E4CD43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +272,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE8882641DCEE4BE003995B9 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE82A5A91DCEC326001A708E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE82A5B31DCEC326001A708E /* ViewController.swift in Sources */,
 				CE82A5B11DCEC326001A708E /* AppDelegate.swift in Sources */,
+				CE8882661DCEE6CF003995B9 /* ArticleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +333,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE82A5B41DCEC326001A708E /* Main.storyboard */ = {
+		CE18BC801DCFE8FA00E4CD43 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE82A5B51DCEC326001A708E /* Base */,
+				CE18BC811DCFE8FA00E4CD43 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -412,11 +449,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3U92R9364N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TestApp002/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kunitomo.TestApp002;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -424,11 +466,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3U92R9364N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TestApp002/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kunitomo.TestApp002;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -505,6 +552,7 @@
 				CE82A5D71DCEC326001A708E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE82A5D81DCEC326001A708E /* Build configuration list for PBXNativeTarget "TestApp002Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +561,7 @@
 				CE82A5DA1DCEC326001A708E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE82A5DB1DCEC326001A708E /* Build configuration list for PBXNativeTarget "TestApp002UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +570,7 @@
 				CE82A5DD1DCEC326001A708E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
